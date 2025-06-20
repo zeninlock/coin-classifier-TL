@@ -1,6 +1,6 @@
 # 🪙 coin-classifier-TL
 
-## 🧠 Coin Classification using Transfer Learning
+## Coin Classification using Transfer Learning
 
 This project demonstrates a deep learning pipeline for classifying coins into 315 unique classes using EfficientNetB0 as a feature extractor. It was built as a transfer learning project using TensorFlow/Keras, with a focus on handling class imbalance, using image augmentation, and optimizing validation accuracy.
 
@@ -15,7 +15,7 @@ The dataset consists of ~11,000 labeled coin images from 315 distinct classes. I
 
 ---
 
-## 📌 Project Highlights
+## Project Highlights
 
 - **Model Architecture:** EfficientNetB0 (pretrained on ImageNet) + custom classification head  
 - **Training Accuracy:** Up to 74%  
@@ -29,7 +29,7 @@ The dataset consists of ~11,000 labeled coin images from 315 distinct classes. I
 
 ---
 
-## 🧠 Model Overview
+## Model Overview
 
 - Used EfficientNetB0 as a frozen feature extractor  
 - Custom top layers:  
@@ -40,7 +40,7 @@ The dataset consists of ~11,000 labeled coin images from 315 distinct classes. I
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 1. Clone this repository or open the notebook in Google Colab  
 2. Download and unzip the dataset from Kaggle. Then sort the images into 315 labels  
@@ -48,7 +48,7 @@ The dataset consists of ~11,000 labeled coin images from 315 distinct classes. I
 
 ---
 
-## 📊 Evaluation & Metrics
+## Evaluation & Metrics
 
 After training:
 
@@ -59,7 +59,7 @@ After training:
 
 ---
 
-## 🧪 Training Strategy
+## Training Strategy
 
 - **Transfer Learning:** Used pretrained EfficientNetB0 without fine-tuning to save time and resources  
 - **Data Augmentation:** Applied to prevent overfitting and improve generalization  
@@ -70,19 +70,19 @@ After training:
 
 ## 📈 Challenges & Learnings
 
-### ✅ What Worked Well:
+### What Worked Well:
 - EfficientNetB0 offered a good tradeoff between speed and accuracy  
 - Augmentation significantly improved generalization  
 - Class weighting helped reduce bias toward dominant classes  
 
-### ⚠️ What Could Be Improved:
+### What Could Be Improved:
 - Some visually similar coins were hard to differentiate  
 - Model could benefit from fine-tuning EfficientNet  
 - Dataset could be further cleaned to reduce noise  
 
 ---
 
-## 🔮 Future Improvements
+## Future Improvements
 
 - Unfreeze EfficientNetB0 layers for fine-tuning  
 - Explore heavier architectures (e.g., ResNet50) if training time allows  
@@ -91,7 +91,7 @@ After training:
 
 ---
 
-## 💭 Reflections
+## Reflections
 
 This was one of my first major CNN projects, and I had to learn convolutional networks, image augmentation, and model training on the go. While challenging, the project gave me a deep understanding of model design, overfitting control, and evaluation strategies.
 
